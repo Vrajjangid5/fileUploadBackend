@@ -14,6 +14,9 @@ const fileSchema = new mongoose.Schema({
     email:{
         type:String,
     },
+    videoUrl:{
+        type:String,
+    },
 });
 
 
